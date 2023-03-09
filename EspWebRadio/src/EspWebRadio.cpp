@@ -14,12 +14,12 @@
 #define AUTO_CONNECT_HOST "WebRadio WiFi"
 #define LOCAL_DOMAIN_NAME "webradio"
 
-#define I2S_DOUT 25
-#define I2S_BCLK 27
+#define I2S_DOUT 27
+#define I2S_BCLK 25
 #define I2S_LRC 26
 #define AMP_ENABLE 33
 
-#define CHANNEL_COUNT 7
+#define CHANNEL_COUNT 8
 
 RadioChannel channels[CHANNEL_COUNT] = {
     {"SWR1", "http://liveradio.swr.de/sw282p3/swr1bw"},                // SWR1
