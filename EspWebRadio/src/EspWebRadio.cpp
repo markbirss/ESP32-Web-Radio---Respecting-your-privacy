@@ -1,7 +1,7 @@
 #include <Audio.h>
 #include <WebServer.h>
 #include <AutoConnect.h> //wifi AutoConnect lib
-#include <Wifi.h>
+//#include <Wifi.h>
 #include <ESPmDNS.h>
 #include <ArduinoOTA.h> //OTA Update
 
@@ -28,7 +28,8 @@ RadioChannel channels[CHANNEL_COUNT] = {
     {"Antenne 1", "http://stream.antenne1.de/a1stg/livestream2.mp3"},  // Antenne 1
     {"Antenne Bayern", "http://stream.antenne.de/antenne/stream/mp3"}, // Antenne Bayern
     {"BigFM", "http://streams.bigfm.de/bigfm-deutschland-128-mp3"},    // BigFM
-    {"107.7", "http://addrad.io/4454xb3"}                              // 107.7
+    {"107.7", "http://addrad.io/4454xb3"},                             // 107.7
+    {"BiasRadio", "http://admin.biasradio.com/radio/8000/mobile"},     // BiasRadio
 };
 
 WebServer server;                                                      // define server instance
