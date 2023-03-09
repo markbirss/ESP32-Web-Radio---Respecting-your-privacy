@@ -336,6 +336,7 @@ select {
                         <option value="bigfm">BigFM</option>
                         <option value="energy">Energy</option>
                         <option value="107.7">107.7</option>
+                        <option value="BiasRadio">BiasRadio</option>
                         <option value="custom">Custom</option>
                     </select>
                     <div class="column hidden" id="radio-url">
