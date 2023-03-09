@@ -29,7 +29,7 @@ private:
   uint8_t snoozeMinutes = DEFAULT_SNOOZE_MIN;
   boolean activated = false;
   boolean snoozed = false;
-  const char *ntpServer = "pool.ntp.org";
+  const char *ntpServer = "ntp1.meraka.csir.co.za";
   // get your timezone string according to this webpage: https://remotemonitoringsystems.ca/time-zone-abbreviations.php
   const char *timeZoneInfo = "UTC+02:00";
   struct tm localTime;
