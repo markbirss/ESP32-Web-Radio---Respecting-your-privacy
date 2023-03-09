@@ -31,7 +31,7 @@ private:
   boolean snoozed = false;
   const char *ntpServer = "pool.ntp.org";
   // get your timezone string according to this webpage: https://remotemonitoringsystems.ca/time-zone-abbreviations.php
-  const char *timeZoneInfo = "CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00";
+  const char *timeZoneInfo = "UTC+02:00";
   struct tm localTime;
   struct tm wakeupTime;
   struct tm snoozedTime;
