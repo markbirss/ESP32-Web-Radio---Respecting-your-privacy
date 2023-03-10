@@ -10,18 +10,17 @@
 #include "RadioAlarm.h"
 
 #if defined(myESP32)
-
  //myESP32
- #define I2S_DOUT 27
- #define I2S_BCLK 25
- #define I2S_LRC 26
+ #define I2S_DOUT   27
+ #define I2S_BCLK   25
+ #define I2S_LRC    26
  #define AMP_ENABLE 33
  #define AUTO_CONNECT_AP "WebRadio_ESP32"
 #elif defined(myESP32_S3)
  //myESP32_S3
- #define I2S_DOUT 41
- #define I2S_BCLK 42
- #define I2S_LRC 2
+ #define I2S_DOUT   41
+ #define I2S_BCLK   42
+ #define I2S_LRC    2
  #define AMP_ENABLE 40  
  #define AUTO_CONNECT_AP "WebRadio_ESP32-S3"
 #endif
